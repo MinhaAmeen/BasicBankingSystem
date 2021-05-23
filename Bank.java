@@ -304,7 +304,7 @@ public class Bank {
         //Welcome message
         try{
             conn = DriverManager.getConnection(CONN_STRING, USERNAME, PASSWORD);
-            System.out.println("Hello! Welcome to Minz Bank Ltd. mobile banking.");
+            System.out.println("Hello! Welcome to ABC Bank Ltd. mobile banking.");
             
         }
         catch(SQLException e){
